@@ -1,0 +1,17 @@
+﻿@model SimplyBitsTest.Models.Item
+
+<div class="col-md-4 col-lg-4">
+    <div class="row">
+        <div class="col-xs-9 col-sm-9 col-md-9">
+            <h5><strong>@Model.Name</strong></h5>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <h5><strong>@string.Format(@Model.Price, "C")</strong></h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @Model.Description
+        </div>
+    </div>
+</div>
