@@ -1,12 +1,10 @@
 ﻿using Newtonsoft.Json;
 using SimplyBitsTest.Models;
 using SimplyBitsTest.ViewModels;
-using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 
 namespace SimplyBitsTest.Controllers
