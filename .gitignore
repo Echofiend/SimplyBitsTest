@@ -1,0 +1,6 @@
+*.suo
+Packages/
+SimplyBitsTest/obj/
+SimplybitsTest/bin/
+SimplybitsTest/SimplyBitsTest.csproj.user
+
